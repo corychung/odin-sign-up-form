@@ -176,6 +176,10 @@ input:invalid {
 input:valid {
     border:1px solid green;
 }
+input:placeholder-shown{
+    border:1px solid gray;
+}
+
 label {
     text-transform: uppercase;
     font-size:0.8rem;
