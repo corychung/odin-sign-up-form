@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <section class="splash container">
+            <div class="logo-container">
+                <img src="img/odin-lined.png" alt="The Odin Project Logo" class="logo-img">
+                <h1 class="logo-text">Odin</h1>
+            </div>
+        </section>
+        <div class="other-half">
+            <section class="card signup-text">
+                <h2>This is definitely a real service!<br><br>You need to sign up for this because I want you to. Do it now.
+                </h2>
+            </section>
+            <section class="card form-fill">
+                <h2>Let's do this!</h2>
+                <form action="" id="form" method="post">
+                    <div class="input-container">
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm-pass">Confirm Password</label>
+                        <input type="password" id="confirm-pass" name="confirm-pass" required>
+                    </div>
+                </form>
+            </section>
+            <section class="card form-submit">
+                <button id="submit" type="submit" value="Submit" form="form">Create Account</button>
+                <span>Already have an account? <a href="..">Log in</a></span>
+            </section>
+        </div>
+    </body>
+</html>
